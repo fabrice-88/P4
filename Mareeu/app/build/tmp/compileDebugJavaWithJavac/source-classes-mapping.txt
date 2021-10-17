@@ -1,0 +1,32 @@
+com/fabrice/mareeu/ui/ReunionAdapter.java
+ com.fabrice.mareeu.ui.ReunionAdapter
+ com.fabrice.mareeu.ui.ReunionAdapter$ReunionViewHolder
+com/fabrice/mareeu/service/DummyReunionGenerator.java
+ com.fabrice.mareeu.service.DummyReunionGenerator
+com/fabrice/mareeu/service/DummyReunionApiService.java
+ com.fabrice.mareeu.service.DummyReunionApiService
+com/fabrice/mareeu/databinding/ActivityMainBinding.java
+ com.fabrice.mareeu.databinding.ActivityMainBinding
+com/fabrice/mareeu/di/Di.java
+ com.fabrice.mareeu.di.Di
+com/fabrice/mareeu/ui/MainActivity.java
+ com.fabrice.mareeu.ui.MainActivity
+ com.fabrice.mareeu.ui.MainActivity$1
+com/fabrice/mareeu/service/ReunionApiService.java
+ com.fabrice.mareeu.service.ReunionApiService
+com/fabrice/mareeu/BuildConfig.java
+ com.fabrice.mareeu.BuildConfig
+com/fabrice/mareeu/ui/AddReunionActivity.java
+ com.fabrice.mareeu.ui.AddReunionActivity
+ com.fabrice.mareeu.ui.AddReunionActivity$1
+ com.fabrice.mareeu.ui.AddReunionActivity$1$1
+ com.fabrice.mareeu.ui.AddReunionActivity$2
+ com.fabrice.mareeu.ui.AddReunionActivity$2$1
+com/fabrice/mareeu/event/DeleteReunionEvent.java
+ com.fabrice.mareeu.event.DeleteReunionEvent
+com/fabrice/mareeu/databinding/ItemReunionBinding.java
+ com.fabrice.mareeu.databinding.ItemReunionBinding
+com/fabrice/mareeu/model/Reunion.java
+ com.fabrice.mareeu.model.Reunion
+com/fabrice/mareeu/databinding/ActivityAddReunionBinding.java
+ com.fabrice.mareeu.databinding.ActivityAddReunionBinding
