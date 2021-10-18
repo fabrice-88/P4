@@ -1,2 +1,0 @@
-com/fabrice/mareeu/ExampleUnitTest.java
- com.fabrice.mareeu.ExampleUnitTest

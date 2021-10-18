@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/filtre"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        app:showAsAction="always"
+        android:title="Filtre">
+        <menu>
+            <item
+                android:id="@+id/filtrer_date"
+                android:title="Filtrer par date"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/filtrer_salle"
+                android:title="Filtrer par salle"
+                app:showAsAction="ifRoom|collapseActionView"
+                app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+            <item
+                android:id="@+id/reset"
+                android:title="Reset"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>
