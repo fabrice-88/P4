@@ -1,10 +1,10 @@
-#Thu Oct 14 22:17:00 CEST 2021
+#Mon Oct 18 19:21:24 CEST 2021
 path.3=3/classes.dex
-path.2=12/classes.dex
+path.2=15/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
 base.3=C\:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\3\\classes.dex
-base.2=C\:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\12\\classes.dex
+base.2=C\:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\15\\classes.dex
 base.1=C\:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.0=C\:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 renamed.3=classes4.dex

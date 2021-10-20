@@ -1,4 +1,4 @@
 com/fabrice/mareeu/test/BuildConfig.java
  com.fabrice.mareeu.test.BuildConfig
-com/fabrice/mareeu/reunion_list/ExampleInstrumentedTest.java
- com.fabrice.mareeu.reunion_list.ExampleInstrumentedTest
+com/fabrice/mareeu/ExampleInstrumentedTest.java
+ com.fabrice.mareeu.ExampleInstrumentedTest

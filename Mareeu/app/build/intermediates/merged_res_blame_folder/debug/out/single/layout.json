@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_reunion.xml",
-        "source": "C:\\Users\\PC\\Documents\\Mareeu\\app\\src\\main\\res\\layout\\item_reunion.xml"
+        "merged": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\PC\\Documents\\Mareeu\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_reunion.xml",
+        "source": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\src\\main\\res\\layout\\item_reunion.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_reunion.xml",
-        "source": "C:\\Users\\PC\\Documents\\Mareeu\\app\\src\\main\\res\\layout\\activity_add_reunion.xml"
+        "merged": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_reunion.xml",
+        "source": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\src\\main\\res\\layout\\activity_add_reunion.xml"
     }
 ]

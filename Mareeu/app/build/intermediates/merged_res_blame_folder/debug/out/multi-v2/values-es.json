@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\PC\\Documents\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "C:\\Users\\PC\\Documents\\P4_bachmann_fabrice\\Mareeu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PC\\.gradle\\caches\\transforms-3\\e759884e8e1539e68246ec4d8729cc98\\transformed\\core-1.5.0\\res\\values-es\\values-es.xml",

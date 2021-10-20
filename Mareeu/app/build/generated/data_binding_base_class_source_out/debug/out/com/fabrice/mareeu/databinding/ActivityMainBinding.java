@@ -21,16 +21,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerview;
+  public final FloatingActionButton add;
 
   @NonNull
-  public final FloatingActionButton startAddActivity;
+  public final RecyclerView recyclerview;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerview, @NonNull FloatingActionButton startAddActivity) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull FloatingActionButton add,
+      @NonNull RecyclerView recyclerview) {
     this.rootView = rootView;
+    this.add = add;
     this.recyclerview = recyclerview;
-    this.startAddActivity = startAddActivity;
   }
 
   @Override
@@ -60,19 +60,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.add;
+      FloatingActionButton add = ViewBindings.findChildViewById(rootView, id);
+      if (add == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerview;
       RecyclerView recyclerview = ViewBindings.findChildViewById(rootView, id);
       if (recyclerview == null) {
         break missingId;
       }
 
-      id = R.id.startAddActivity;
-      FloatingActionButton startAddActivity = ViewBindings.findChildViewById(rootView, id);
-      if (startAddActivity == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, recyclerview, startAddActivity);
+      return new ActivityMainBinding((ConstraintLayout) rootView, add, recyclerview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
