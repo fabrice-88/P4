@@ -22,6 +22,8 @@ com/fabrice/mareeu/ui/AddReunionActivity.java
  com.fabrice.mareeu.ui.AddReunionActivity$1$1
  com.fabrice.mareeu.ui.AddReunionActivity$2
  com.fabrice.mareeu.ui.AddReunionActivity$2$1
+com/fabrice/mareeu/event/DeleteReunionEvent.java
+ com.fabrice.mareeu.event.DeleteReunionEvent
 com/fabrice/mareeu/databinding/ItemReunionBinding.java
  com.fabrice.mareeu.databinding.ItemReunionBinding
 com/fabrice/mareeu/model/Reunion.java

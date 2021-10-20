@@ -25,26 +25,26 @@ public final class ItemReunionBinding implements ViewBinding {
   public final ImageView circle;
 
   @NonNull
-  public final ImageButton delete;
+  public final ImageButton itemListDeleteButton;
+
+  @NonNull
+  public final TextView itemListMail;
+
+  @NonNull
+  public final TextView itemListTittle;
 
   @NonNull
   public final ConstraintLayout itemReunion;
 
-  @NonNull
-  public final TextView mail;
-
-  @NonNull
-  public final TextView salle;
-
   private ItemReunionBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView circle,
-      @NonNull ImageButton delete, @NonNull ConstraintLayout itemReunion, @NonNull TextView mail,
-      @NonNull TextView salle) {
+      @NonNull ImageButton itemListDeleteButton, @NonNull TextView itemListMail,
+      @NonNull TextView itemListTittle, @NonNull ConstraintLayout itemReunion) {
     this.rootView = rootView;
     this.circle = circle;
-    this.delete = delete;
+    this.itemListDeleteButton = itemListDeleteButton;
+    this.itemListMail = itemListMail;
+    this.itemListTittle = itemListTittle;
     this.itemReunion = itemReunion;
-    this.mail = mail;
-    this.salle = salle;
   }
 
   @Override
@@ -80,28 +80,28 @@ public final class ItemReunionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.delete;
-      ImageButton delete = ViewBindings.findChildViewById(rootView, id);
-      if (delete == null) {
+      id = R.id.item_list_delete_button;
+      ImageButton itemListDeleteButton = ViewBindings.findChildViewById(rootView, id);
+      if (itemListDeleteButton == null) {
+        break missingId;
+      }
+
+      id = R.id.item_list_mail;
+      TextView itemListMail = ViewBindings.findChildViewById(rootView, id);
+      if (itemListMail == null) {
+        break missingId;
+      }
+
+      id = R.id.item_list_tittle;
+      TextView itemListTittle = ViewBindings.findChildViewById(rootView, id);
+      if (itemListTittle == null) {
         break missingId;
       }
 
       ConstraintLayout itemReunion = (ConstraintLayout) rootView;
 
-      id = R.id.mail;
-      TextView mail = ViewBindings.findChildViewById(rootView, id);
-      if (mail == null) {
-        break missingId;
-      }
-
-      id = R.id.salle;
-      TextView salle = ViewBindings.findChildViewById(rootView, id);
-      if (salle == null) {
-        break missingId;
-      }
-
-      return new ItemReunionBinding((ConstraintLayout) rootView, circle, delete, itemReunion, mail,
-          salle);
+      return new ItemReunionBinding((ConstraintLayout) rootView, circle, itemListDeleteButton,
+          itemListMail, itemListTittle, itemReunion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
