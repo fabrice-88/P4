@@ -25,7 +25,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:hint="Salle"
+                android:hint="@string/salle"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -44,7 +44,7 @@
                 app:layout_constraintTop_toBottomOf="@id/salle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:hint="Sujet"
+                android:hint="@string/sujet"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -62,7 +62,7 @@
                 app:layout_constraintTop_toBottomOf="@id/sujet"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:hint="Mail"
+                android:hint="@string/mail"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -83,7 +83,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Choisir une date"/>
+                android:text="@string/choisir_une_date"/>
 
             <Button
                 android:id="@+id/heure"
@@ -95,7 +95,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="Choisir une heure"/>
+                android:text="@string/choisir_une_heure"/>
 
             <Button
                 android:id="@+id/submitButton"
@@ -105,7 +105,7 @@
                 app:layout_constraintTop_toBottomOf="@id/heure"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:text="Ajouter"/>
+                android:text="@string/ajouter"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -3,24 +3,24 @@
 3    package="com.fabrice.mareeu.test" >
 4
 5    <uses-sdk
-5-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:5:5-74
+5-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:5:15-41
+6-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:5:15-41
 7        android:targetSdkVersion="31" />
-7-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:5:42-71
+7-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:11:5-15:68
+9-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:11:5-15:68
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:11:22-76
+10-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:14:22-52
+11-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:13:22-53
+12-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:13:22-53
 13        android:label="Tests for com.fabrice.mareeu"
-13-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:15:22-66
+13-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:15:22-66
 14        android:targetPackage="com.fabrice.mareeu" />
-14-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:12:22-64
+14-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:12:22-64
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.4.0] C:\Users\PC\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
@@ -40,10 +40,10 @@
 22    </queries>
 23
 24    <application android:debuggable="true" >
-24-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:7:5-9:19
+24-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:7:5-9:19
 25        <uses-library android:name="android.test.runner" />
-25-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:8:9-60
-25-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest21575892374150915.xml:8:23-57
+25-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:8:9-60
+25-->C:\Users\PC\Documents\Mareeu\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15850056661902178669.xml:8:23-57
 26
 27        <activity
 27-->[androidx.test:core:1.4.0] C:\Users\PC\.gradle\caches\transforms-3\d0df7195982e25d16acc4b983fb7719f\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
